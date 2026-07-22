@@ -1,68 +1,474 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.3">
-  <style type="text/css">
-    body {background-color: #fef4e4}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 20.0px '.Apple Color Emoji UI'; color: #1a3e58; -webkit-text-stroke: #1a3e58}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 15.0px 'PingFang TC'; color: #4a697d; -webkit-text-stroke: #4a697d}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'PingFang TC'; color: #1a3e58; -webkit-text-stroke: #1a3e58}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #185b79; -webkit-text-stroke: #185b79}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #1a3e58; -webkit-text-stroke: #1a3e58; min-height: 15.0px}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 26.0px '.Apple Color Emoji UI'; color: #1a3e58; -webkit-text-stroke: #1a3e58}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px '.Apple Color Emoji UI'; color: #1a3e58; -webkit-text-stroke: #1a3e58}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 15.0px 'PingFang TC'; color: #185b79; -webkit-text-stroke: #185b79}
-    p.p10 {margin: 0.0px 0.0px 4.0px 0.0px; text-align: center; font: 13.0px 'PingFang TC'; color: #4a697d; -webkit-text-stroke: #4a697d}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'PingFang TC'; color: #765112; -webkit-text-stroke: #765112}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px 'PingFang TC'; color: #1a3e58; -webkit-text-stroke: #1a3e58; background-color: #ffffff}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.5px 'PingFang TC'; color: #4a697d; -webkit-text-stroke: #4a697d}
-    p.p14 {margin: 0.0px 0.0px 12.0px 0.0px; text-align: center; font: 12.0px 'PingFang TC'; color: #4a697d; -webkit-text-stroke: #4a697d}
-    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 44.0px '.Apple Color Emoji UI'; color: #1a3e58; -webkit-text-stroke: #1a3e58}
-    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'PingFang TC'; color: #4a697d; -webkit-text-stroke: #4a697d}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 15.0px 'Helvetica Neue'; font-kerning: none}
-    span.s3 {font: 15.0px '.CJK Symbols Fallback TC'; font-kerning: none}
-    span.s4 {font: 16.0px '.Apple Color Emoji UI'; font-kerning: none; background-color: #ffffff}
-    span.s5 {font: 16.0px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
-    span.s6 {font-kerning: none; background-color: #ffffff}
-    span.s7 {font: 15.0px 'PingFang TC'; font-kerning: none; background-color: #ffffff}
-    span.s8 {font: 15.0px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
-    span.s9 {font: 15.0px '.Apple Color Emoji UI'; font-kerning: none; background-color: #ffffff}
-    span.s10 {font: 13.0px 'Helvetica Neue'; font-kerning: none}
-    span.s11 {font: 13.0px '.Apple Color Emoji UI'; font-kerning: none}
-    span.s12 {font: 14.0px '.Apple Color Emoji UI'; font-kerning: none}
-    span.s13 {font: 14.0px 'Helvetica Neue'; font-kerning: none}
-    span.s14 {font-kerning: none; color: #5a3d0e; -webkit-text-stroke: 0px #5a3d0e}
-    span.s15 {font: 12.5px '.Apple Color Emoji UI'; font-kerning: none; background-color: #ffffff}
-    span.s16 {font: 12.5px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
-    span.s17 {font: 12.0px 'Helvetica Neue'; font-kerning: none}
-    span.s18 {font: 12.0px '.Apple Color Emoji UI'; font-kerning: none}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>海邊打包大作戰 🏖️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sand:#FEF6E9; --sand-deep:#F6E4C8; --card:#FFFFFF;
+    --ink:#21506B; --ink-soft:#5B7C90;
+    --sea:#2A9DB5; --sea-deep:#1B6E8C;
+    --sun:#FFC845; --coral:#FF7A6B; --success:#4CB963;
+    --line:#EFE3CE; --shadow:0 8px 24px rgba(33,80,107,.10); --shadow-lift:0 12px 32px rgba(33,80,107,.18);
+    --helper-a:#FF7A6B; --helper-b:#7C6BFF; --helper-c:#3FB98C;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:"Fredoka","Noto Sans TC",system-ui,sans-serif;
+    background:radial-gradient(120% 60% at 50% -10%, #BEE7F0 0%, rgba(190,231,240,0) 60%), var(--sand);
+    color:var(--ink); min-height:100vh; line-height:1.6; padding-bottom:40px;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px;}
+  .hero{position:relative;text-align:center;padding:26px 16px 18px;overflow:hidden;}
+  .hero h1{font-weight:900;font-size:clamp(28px,7vw,44px);margin:6px 0 4px;color:var(--ink);letter-spacing:.5px;}
+  .hero p{margin:0;color:var(--ink-soft);font-weight:500;font-size:15px;}
+  .beach-scene{width:100%;max-width:520px;display:block;margin:0 auto;}
+  .sun{transform-origin:center;animation:spin 40s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .cloud{animation:drift 9s ease-in-out infinite;}
+  .cloud.two{animation-duration:13s;}
+  @keyframes drift{0%,100%{transform:translateX(0);}50%{transform:translateX(14px);}}
+  .progress-card{background:var(--card);border-radius:22px;box-shadow:var(--shadow);padding:18px 18px 20px;margin-top:-6px;position:relative;z-index:2;}
+  .progress-top{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px;}
+  .progress-top .label{font-weight:700;font-size:16px;}
+  .progress-top .count{font-weight:700;color:var(--sea-deep);font-size:15px;}
+  .track{position:relative;height:34px;border-radius:20px;background:linear-gradient(180deg,#DFF4FA,#CDEBF4);overflow:hidden;border:2px solid #BCE3EE;}
+  .fill{position:absolute;inset:0 auto 0 0;width:0%;background:linear-gradient(180deg,#5FC3DA,var(--sea));border-radius:0 20px 20px 0;transition:width .5s cubic-bezier(.22,1,.36,1);}
+  .wave{position:absolute;top:0;right:-2px;height:100%;width:14px;background:radial-gradient(circle at left, rgba(255,255,255,.55), transparent 70%);}
+  .duck{position:absolute;top:50%;left:0%;transform:translate(-50%,-50%);font-size:26px;transition:left .5s cubic-bezier(.22,1,.36,1);z-index:3;animation:bob 2.4s ease-in-out infinite;}
+  @keyframes bob{0%,100%{margin-top:0;}50%{margin-top:-4px;}}
+  .flag{position:absolute;top:50%;right:6px;transform:translateY(-50%);font-size:20px;z-index:2;}
+  .pct{text-align:center;font-weight:900;font-size:15px;color:var(--sea-deep);margin-top:10px;}
+  .helpers{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:18px 0 6px;}
+  .helper-chip{display:flex;align-items:center;gap:7px;background:var(--card);border:2px solid var(--line);border-radius:999px;padding:6px 14px 6px 8px;box-shadow:var(--shadow);font-weight:700;font-size:14px;color:var(--ink);}
+  .helper-dot{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:13px;font-weight:800;}
+  .helper-chip input{border:none;background:transparent;font:inherit;color:var(--ink);width:64px;font-weight:700;padding:2px 0;}
+  .helper-chip input:focus{outline:none;border-bottom:2px dashed var(--line);}
+  .helper-hint{text-align:center;color:var(--ink-soft);font-size:13px;margin:2px 0 4px;font-weight:500;}
+  .learn{background:linear-gradient(135deg,#FFF6E0,#FFEFC8);border:2px dashed #F0CE7A;border-radius:18px;padding:14px 16px;margin:16px 0 4px;font-size:14px;color:#8A6316;font-weight:500;}
+  .learn b{color:#6E4E0F;}
+  .cat{background:var(--card);border-radius:20px;box-shadow:var(--shadow);margin-top:16px;overflow:hidden;}
+  .cat-head{display:flex;align-items:center;gap:12px;padding:14px 16px;cursor:pointer;user-select:none;}
+  .cat-emoji{font-size:24px;width:44px;height:44px;flex:0 0 44px;display:grid;place-items:center;border-radius:14px;background:var(--sand);}
+  .cat-title{flex:1;min-width:0;}
+  .cat-title .name{font-weight:700;font-size:17px;}
+  .cat-title .sub{font-size:12px;color:var(--ink-soft);font-weight:500;}
+  .cat-mini{height:7px;border-radius:6px;background:#EDE3D2;overflow:hidden;margin-top:6px;}
+  .cat-mini > i{display:block;height:100%;width:0%;background:var(--success);border-radius:6px;transition:width .4s ease;}
+  .chev{color:var(--ink-soft);font-size:14px;transition:transform .3s ease;flex:0 0 auto;}
+  .cat.collapsed .chev{transform:rotate(-90deg);}
+  .cat-body{padding:2px 12px 12px;}
+  .cat.collapsed .cat-body{display:none;}
+  .item{display:flex;align-items:center;gap:12px;padding:11px 8px;border-radius:14px;cursor:pointer;transition:background .15s ease;}
+  .item:active{background:var(--sand);}
+  .box{flex:0 0 28px;width:28px;height:28px;border-radius:9px;border:2.5px solid #CFE0E7;background:#fff;display:grid;place-items:center;transition:transform .15s ease, background .2s ease, border-color .2s ease;}
+  .box svg{width:16px;height:16px;stroke:#fff;stroke-width:3.5;fill:none;stroke-dasharray:24;stroke-dashoffset:24;transition:stroke-dashoffset .25s ease;}
+  .item.done .box{background:var(--success);border-color:var(--success);}
+  .item.done .box svg{stroke-dashoffset:0;}
+  .item.pop .box{transform:scale(1.25);}
+  .item-label{flex:1;font-weight:500;font-size:15.5px;}
+  .item.done .item-label{color:#A9BCC6;text-decoration:line-through;text-decoration-color:#D5E0E5;}
+  .item-note{display:block;font-size:12px;color:var(--ink-soft);font-weight:500;text-decoration:none;}
+  .item.done .item-note{color:#C2D0D7;}
+  .adult-tag{font-size:10.5px;font-weight:700;color:#B06A00;background:#FFE9C2;padding:2px 7px;border-radius:999px;flex:0 0 auto;}
+  .assign{flex:0 0 30px;width:30px;height:30px;border-radius:50%;border:2px dashed #D7C6A8;background:#fff;display:grid;place-items:center;font-size:12px;color:#C6B48F;font-weight:800;transition:transform .15s ease;}
+  .assign:active{transform:scale(.9);}
+  .assign.set{border-style:solid;color:#fff;border-color:transparent;}
+  .add-row{display:flex;gap:8px;padding:8px 8px 4px;}
+  .add-row input{flex:1;border:2px solid var(--line);border-radius:12px;padding:9px 12px;font:inherit;font-size:14px;color:var(--ink);background:var(--sand);}
+  .add-row input:focus{outline:none;border-color:var(--sea);}
+  .add-row button{border:none;background:var(--sea);color:#fff;font-weight:700;font:inherit;font-size:14px;border-radius:12px;padding:0 16px;cursor:pointer;}
+  .actions{display:flex;gap:10px;justify-content:center;margin-top:22px;flex-wrap:wrap;}
+  .btn{border:none;border-radius:14px;padding:11px 18px;font:inherit;font-weight:700;font-size:14px;cursor:pointer;box-shadow:var(--shadow);}
+  .btn.ghost{background:#fff;color:var(--ink);border:2px solid var(--line);}
+  .btn.sound{background:#fff;color:var(--ink);border:2px solid var(--line);}
+  .sync-badge{display:inline-flex;align-items:center;gap:6px;margin:16px auto 0;padding:6px 14px;border-radius:999px;background:#fff;border:2px solid var(--line);font-size:12.5px;font-weight:700;color:var(--ink-soft);box-shadow:var(--shadow);}
+  .sync-badge.on{color:var(--success);border-color:#CBE9D6;}
+  .badge-wrap{text-align:center;}
+  .footnote{text-align:center;color:var(--ink-soft);font-size:12px;margin-top:12px;font-weight:500;}
+  .celebrate{position:fixed;inset:0;pointer-events:none;z-index:50;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .3s ease;}
+  .celebrate.show{opacity:1;}
+  .celebrate .banner{background:#fff;border-radius:22px;padding:22px 30px;box-shadow:var(--shadow-lift);text-align:center;transform:scale(.8);transition:transform .4s cubic-bezier(.34,1.56,.64,1);}
+  .celebrate.show .banner{transform:scale(1);}
+  .celebrate .banner h2{margin:6px 0;font-size:26px;color:var(--coral);font-weight:900;}
+  .celebrate .banner p{margin:0;color:var(--ink-soft);font-weight:500;}
+  .confetti{position:fixed;top:-20px;font-size:18px;z-index:49;pointer-events:none;animation:fall linear forwards;}
+  @keyframes fall{to{transform:translateY(110vh) rotate(540deg);opacity:.9;}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important;}}
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">🏖️</span></p>
-<h1 style="margin: 0.0px 0.0px 4.0px 0.0px; text-align: center; font: 44.0px '.PingFang UI TC'; color: #1a3e58; -webkit-text-stroke: #1a3e58"><span class="s1">海邊打包大作戰</span></h1>
-<p class="p3"><span class="s1">出發到北海岸獨棟海灘旅館</span><span class="s2"> </span><span class="s3">·</span><span class="s2"> </span><span class="s1">一起把行李打包好！</span></p>
-<p class="p4"><span class="s4">🧳</span><span class="s5"> </span><span class="s6">打包進度</span></p>
-<p class="p5"><span class="s6">0 / 0 </span><span class="s7">樣</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p7"><span class="s6">🦆</span></p>
-<p class="p8"><span class="s6">🚩</span></p>
-<p class="p9"><span class="s6">出發！點一下就能把東西放進行李箱</span><span class="s8"> </span><span class="s9">👇</span></p>
-<p class="p10"><span class="s1">點每樣東西右邊的圈圈，就能把它交給一位小隊長負責</span><span class="s10"> </span><span class="s11">🙌</span></p>
-<p class="p11"><span class="s12">💡</span><span class="s13"> </span><span class="s14">小小整理術：</span><span class="s1">為什麼要分成一類一類？因為把「一起用的東西」放在一起，打包會更快、比較不會漏掉，還可以一格一格打勾看哪一類已經完成囉！</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p12"><span class="s12">🔊</span><span class="s13"> </span><span class="s1">音效：開</span></p>
-<p class="p12"><span class="s12">🔄</span><span class="s13"> </span><span class="s1">全部重來</span></p>
-<p class="p13"><span class="s15">📱</span><span class="s16"> </span><span class="s6">只存這台裝置</span></p>
-<p class="p14"><span class="s1">祝你們玩得開心</span><span class="s17"> </span><span class="s18">🌊</span></p>
-<p class="p15"><span class="s6">🎉🏖️🎉</span></p>
-<h2 style="margin: 0.0px 0.0px 6.0px 0.0px; text-align: center; font: 26.0px 'PingFang TC'; color: #fc6258; -webkit-text-stroke: #fc6258"><span class="s6">全部打包完成！</span></h2>
-<p class="p17"><span class="s6">行李準備好了，出發去海邊吧～</span></p>
+<div class="wrap">
+
+  <div class="hero">
+    <svg class="beach-scene" viewBox="0 0 520 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g class="sun"><circle cx="440" cy="40" r="20" fill="#FFC845"/>
+        <g stroke="#FFC845" stroke-width="3" stroke-linecap="round">
+          <line x1="440" y1="8" x2="440" y2="0"/><line x1="440" y1="80" x2="440" y2="72"/>
+          <line x1="408" y1="40" x2="400" y2="40"/><line x1="480" y1="40" x2="472" y2="40"/>
+          <line x1="417" y1="17" x2="411" y2="11"/><line x1="469" y1="63" x2="463" y2="57"/>
+          <line x1="463" y1="17" x2="469" y2="11"/><line x1="411" y1="63" x2="417" y2="57"/>
+        </g></g>
+      <g class="cloud" fill="#fff" opacity=".9"><ellipse cx="120" cy="34" rx="28" ry="14"/><ellipse cx="148" cy="34" rx="20" ry="11"/><ellipse cx="96" cy="38" rx="18" ry="10"/></g>
+      <g class="cloud two" fill="#fff" opacity=".75"><ellipse cx="300" cy="22" rx="20" ry="9"/><ellipse cx="320" cy="24" rx="14" ry="7"/></g>
+      <path d="M0 108 Q130 92 260 108 T520 108 V150 H0 Z" fill="#F6E4C8"/>
+      <path d="M0 118 Q130 104 260 118 T520 118 V150 H0 Z" fill="#5FC3DA" opacity=".55"/>
+      <path d="M0 128 Q130 116 260 128 T520 128 V150 H0 Z" fill="#2A9DB5" opacity=".7"/>
+      <g transform="translate(180,86)"><rect x="-4" y="0" width="8" height="24" fill="#E39B5A"/><path d="M-4 0 L20 8 L-4 16 Z" fill="#FF7A6B"/></g>
+      <text x="60" y="128" font-size="20">🏖️</text>
+    </svg>
+    <h1>海邊打包大作戰</h1>
+    <p>出發到北海岸獨棟海灘旅館 · 一起把行李打包好！</p>
+  </div>
+
+  <div class="progress-card">
+    <div class="progress-top">
+      <span class="label">🧳 打包進度</span>
+      <span class="count" id="count">0 / 0 樣</span>
+    </div>
+    <div class="track">
+      <div class="fill" id="fill"></div><div class="wave"></div>
+      <span class="duck" id="duck">🦆</span><span class="flag">🚩</span>
+    </div>
+    <div class="pct" id="pct">出發！點一下就能把東西放進行李箱 👇</div>
+  </div>
+
+  <div class="helpers" id="helpers"></div>
+  <p class="helper-hint">點每樣東西右邊的圈圈，就能把它交給一位小隊長負責 🙌</p>
+
+  <div class="learn">
+    💡 <b>小小整理術：</b>為什麼要分成一類一類？因為把「一起用的東西」放在一起，打包會更快、比較不會漏掉，還可以一格一格打勾看哪一類已經完成囉！
+  </div>
+
+  <div id="list"></div>
+
+  <div class="actions">
+    <button class="btn sound" id="soundBtn">🔊 音效：開</button>
+    <button class="btn ghost" id="resetBtn">🔄 全部重來</button>
+  </div>
+  <div class="badge-wrap"><span class="sync-badge" id="syncBadge">📱 只存這台裝置</span></div>
+  <p class="footnote">祝你們玩得開心 🌊</p>
+
+</div>
+
+<div class="celebrate" id="celebrate">
+  <div class="banner">
+    <div style="font-size:44px">🎉🏖️🎉</div>
+    <h2>全部打包完成！</h2>
+    <p>行李準備好了，出發去海邊吧～</p>
+  </div>
+</div>
+
+<script>
+/* ============================================================
+   ↓↓↓ 全家同步：部署好 Apps Script 後，把網址貼進這對引號裡 ↓↓↓
+   （網址以 /exec 結尾。留空的話，就只會存在這一台裝置） */
+const SYNC_URL = "https://script.google.com/macros/s/AKfycby9sPTMwPIQbmJ89UZYSIQTx4WoJGYdqjkaNPSHNafKaHzHXMkhXiKbcJGY6ODVvKK6Ig/exec";
+/* ↑↑↑ 例如： const SYNC_URL = "https://script.google.com/macros/s/AKfy.../exec"; */
+/* ============================================================ */
+
+/* ---------------- 清單資料 ---------------- */
+const DATA = [
+  { id:"c1", emoji:"🏖️", name:"玩沙玩水", items:[
+    {t:"泳衣（每個人）"}, {t:"泳圈 / 浮板"}, {t:"蛙鏡"},
+    {t:"挖沙工具、沙桶"}, {t:"水槍"},
+    {t:"大浴巾 / 沙灘巾"}, {t:"防水袋", n:"裝濕掉的衣服"},
+    {t:"沙灘鞋 / 布希鞋", n:"沙子會燙，也防滑"},
+  ]},
+  { id:"c2", emoji:"☀️", name:"防曬防蚊", items:[
+    {t:"防曬乳 SPF50", n:"海邊超曬，出門前先擦"}, {t:"帽子"}, {t:"太陽眼鏡"},
+    {t:"防蚊液"}, {t:"曬後蘆薈膠 / 舒緩乳"},
+  ]},
+  { id:"c3", emoji:"🍖", name:"烤肉用具", items:[
+    {t:"木炭 + 起火工具", n:"打火機或噴槍"}, {t:"烤肉夾、刷子、鋁箔紙"},
+    {t:"免洗餐盤、餐具"}, {t:"垃圾袋、餐巾紙、濕紙巾"},
+    {t:"雨天備案", n:"午後可能雷陣雨：確認院子有沒有遮雨處，或帶室內小烤盤", adult:true},
+  ]},
+  { id:"c4", emoji:"👕", name:"換洗衣物", items:[
+    {t:"每人替換衣服 ×2"}, {t:"薄外套", n:"晚上海風涼"},
+    {t:"內衣褲、襪子"}, {t:"睡衣"},
+  ]},
+  { id:"c5", emoji:"🧼", name:"盥洗用品", items:[
+    {t:"牙刷、牙膏"}, {t:"洗髮精、沐浴乳", n:"先問旅館有沒有"},
+    {t:"個人毛巾"}, {t:"吹風機", n:"先問旅館有沒有"},
+  ]},
+  { id:"c6", emoji:"💊", name:"藥品急救", items:[
+    {t:"常備藥、退燒藥", adult:true}, {t:"OK繃、優碘"},
+    {t:"暈車藥", n:"上車前先吃"}, {t:"體溫計"}, {t:"止癢藥膏"},
+  ]},
+  { id:"c8", emoji:"🎲", name:"娛樂充電", items:[
+    {t:"手機充電線、行動電源", adult:true}, {t:"相機"},
+    {t:"桌遊 / 撲克牌"}, {t:"故事書"},
+    {t:"小夜燈", n:"換環境比較好睡"}, {t:"泡泡機 / 風箏", n:"海邊放超好玩"},
+  ]},
+  { id:"c9", emoji:"📋", name:"重要證件（豬媽媽負責）", items:[
+    {t:"訂房確認單", adult:true}, {t:"健保卡（每個人）", adult:true},
+    {t:"錢包、現金", adult:true}, {t:"車鑰匙、家鑰匙", adult:true},
+    {t:"雨傘 / 輕便雨衣", n:"午後可能有雷陣雨", adult:true},
+  ]},
+];
+
+const HELPER_VARS = ["--helper-a","--helper-b","--helper-c"];
+let state = {
+  checked:{}, assign:{}, helpers:["小隊長","小隊長","小隊長"],
+  customItems:{}, collapsed:{}, sound:true
+};
+
+/* ---------------- 本機儲存（快取＋這台的偏好） ---------------- */
+const KEY = "beach-packing-v2";
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){} }
+function loadLocal(){ try{ const v=localStorage.getItem(KEY); if(v) Object.assign(state, JSON.parse(v)); }catch(e){} }
+
+/* ---------------- 雲端同步（Google 試算表） ---------------- */
+let syncOK=false;
+function syncPush(params){
+  if(!SYNC_URL) return;
+  try{ fetch(SYNC_URL + "?" + new URLSearchParams(params).toString()); }catch(e){}
+}
+async function syncPull(){
+  if(!SYNC_URL) return null;
+  try{
+    const res = await fetch(SYNC_URL + "?action=get");
+    const j = await res.json();
+    syncOK = true; updateSyncBadge(); return j;
+  }catch(e){ syncOK = false; updateSyncBadge(); return null; }
+}
+function applyRemote(remote){
+  if(!remote || !remote.items) return;
+  remote.items.forEach(r=>{
+    if(r.key.indexOf("__helper_")===0){
+      const idx=parseInt(r.key.replace("__helper_",""),10);
+      if(!isNaN(idx) && r.label) state.helpers[idx]=r.label;
+      return;
+    }
+    if(r.isCustom==="1" && !state.customItems[r.key]){
+      state.customItems[r.key]={category:r.category,label:r.label};
+    }
+    if(r.checked==="1" || r.checked==="true") state.checked[r.key]=true;
+    else if(r.checked==="0" || r.checked==="") delete state.checked[r.key];
+    const a=parseInt(r.assignedTo,10);
+    if(r.assignedTo!=="" && !isNaN(a)) state.assign[r.key]=a;
+    else if(r.assignedTo==="") delete state.assign[r.key];
+  });
+}
+function updateSyncBadge(){
+  const b=document.getElementById("syncBadge");
+  if(!b) return;
+  if(!SYNC_URL){ b.textContent="📱 只存這台裝置"; b.classList.remove("on"); }
+  else if(syncOK){ b.textContent="🔗 已和大家同步"; b.classList.add("on"); }
+  else{ b.textContent="⚠️ 連線中…"; b.classList.remove("on"); }
+}
+
+/* ---------------- 音效 ---------------- */
+let audioCtx;
+function pop(up){
+  if(!state.sound) return;
+  try{
+    audioCtx = audioCtx || new (window.AudioContext||window.webkitAudioContext)();
+    const o=audioCtx.createOscillator(), g=audioCtx.createGain();
+    o.type="sine";
+    o.frequency.setValueAtTime(up?520:360, audioCtx.currentTime);
+    o.frequency.exponentialRampToValueAtTime(up?880:300, audioCtx.currentTime+.12);
+    g.gain.setValueAtTime(.0001,audioCtx.currentTime);
+    g.gain.exponentialRampToValueAtTime(.18,audioCtx.currentTime+.02);
+    g.gain.exponentialRampToValueAtTime(.0001,audioCtx.currentTime+.2);
+    o.connect(g);g.connect(audioCtx.destination);
+    o.start();o.stop(audioCtx.currentTime+.22);
+  }catch(e){}
+}
+
+/* ---------------- 工具 ---------------- */
+function pkey(catId,i){ return catId+"_"+i; }
+function allItems(){
+  const out=[];
+  DATA.forEach(c=> c.items.forEach((it,i)=> out.push(pkey(c.id,i))));
+  Object.keys(state.customItems).forEach(k=> out.push(k));
+  return out;
+}
+function assignedStr(k){ return (state.assign[k]!==undefined && state.assign[k]!==null) ? String(state.assign[k]) : ""; }
+
+/* ---------------- 畫面 ---------------- */
+function renderHelpers(){
+  const wrap=document.getElementById("helpers");
+  wrap.innerHTML="";
+  state.helpers.forEach((nm,i)=>{
+    const chip=document.createElement("div"); chip.className="helper-chip";
+    const dot=document.createElement("span"); dot.className="helper-dot";
+    dot.style.background="var("+HELPER_VARS[i]+")"; dot.textContent=(i+1);
+    const inp=document.createElement("input");
+    inp.value=nm; inp.maxLength=6; inp.setAttribute("aria-label","小隊長"+(i+1)+"的名字");
+    inp.addEventListener("input",()=>{ state.helpers[i]=inp.value||"小隊長"; });
+    inp.addEventListener("change",()=>{ save(); syncPush({action:"helper",index:i,name:state.helpers[i]}); render(); });
+    inp.addEventListener("keydown",e=>{ if(e.key==="Enter") inp.blur(); });
+    chip.appendChild(dot); chip.appendChild(inp); wrap.appendChild(chip);
+  });
+}
+
+function makeItem(k, label, note, adult, isCustom){
+  const done=!!state.checked[k];
+  const row=document.createElement("div");
+  row.className="item"+(done?" done":"");
+
+  const box=document.createElement("div"); box.className="box";
+  box.innerHTML='<svg viewBox="0 0 24 24"><polyline points="4 12 10 18 20 6"/></svg>';
+
+  const lab=document.createElement("div"); lab.className="item-label"; lab.textContent=label;
+  if(note){ const s=document.createElement("span"); s.className="item-note"; s.textContent=note; lab.appendChild(s); }
+
+  row.appendChild(box); row.appendChild(lab);
+  if(adult){ const tg=document.createElement("span"); tg.className="adult-tag"; tg.textContent="豬媽媽"; row.appendChild(tg); }
+
+  const asg=document.createElement("button"); asg.className="assign";
+  const a=state.assign[k];
+  if(a!==undefined && a!==null){ asg.classList.add("set"); asg.style.background="var("+HELPER_VARS[a]+")"; asg.textContent=(a+1); }
+  else{ asg.textContent="＋"; }
+  asg.setAttribute("aria-label","指派負責人");
+  asg.addEventListener("click",(e)=>{
+    e.stopPropagation();
+    let cur=state.assign[k]; if(cur===undefined||cur===null) cur=-1;
+    cur=cur+1;
+    if(cur>2){ delete state.assign[k]; } else { state.assign[k]=cur; }
+    save(); syncPush({action:"set",key:k,checked:state.checked[k]?"1":"0",assignedTo:assignedStr(k)}); render();
+  });
+  row.appendChild(asg);
+
+  row.addEventListener("click",()=>{
+    const nowDone=!state.checked[k];
+    if(nowDone) state.checked[k]=true; else delete state.checked[k];
+    row.classList.add("pop"); setTimeout(()=>row.classList.remove("pop"),160);
+    pop(nowDone);
+    save(); syncPush({action:"set",key:k,checked:nowDone?"1":"0",assignedTo:assignedStr(k)});
+    row.classList.toggle("done",nowDone);
+    update(); checkCelebrate();
+  });
+  return row;
+}
+
+function render(){
+  renderHelpers();
+  const list=document.getElementById("list");
+  list.innerHTML="";
+  DATA.forEach(c=>{
+    const cat=document.createElement("div");
+    cat.className="cat"+(state.collapsed[c.id]?" collapsed":"");
+    const head=document.createElement("div"); head.className="cat-head";
+    head.innerHTML='<div class="cat-emoji">'+c.emoji+'</div>'
+      +'<div class="cat-title"><div class="name">'+c.name+'</div>'
+      +'<div class="sub" id="sub_'+c.id+'"></div>'
+      +'<div class="cat-mini"><i id="mini_'+c.id+'"></i></div></div>'
+      +'<div class="chev">▼</div>';
+    head.addEventListener("click",()=>{ state.collapsed[c.id]=!state.collapsed[c.id]; cat.classList.toggle("collapsed"); save(); });
+    cat.appendChild(head);
+
+    const body=document.createElement("div"); body.className="cat-body";
+    c.items.forEach((it,i)=> body.appendChild(makeItem(pkey(c.id,i), it.t, it.n, it.adult, false)));
+    Object.entries(state.customItems).forEach(([k,v])=>{
+      if(v.category===c.id) body.appendChild(makeItem(k, v.label, "自己加的 ✏️", false, true));
+    });
+
+    const add=document.createElement("div"); add.className="add-row";
+    const inp=document.createElement("input"); inp.placeholder="想到還要帶什麼？打在這裡…";
+    const btn=document.createElement("button"); btn.textContent="加入";
+    function doAdd(){
+      const v=inp.value.trim(); if(!v) return;
+      const k="cust_"+c.id+"_"+Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+      state.customItems[k]={category:c.id,label:v};
+      inp.value=""; save(); syncPush({action:"addCustom",key:k,category:c.id,label:v}); render(); update();
+    }
+    btn.addEventListener("click",doAdd);
+    inp.addEventListener("keydown",e=>{ if(e.key==="Enter") doAdd(); });
+    add.appendChild(inp); add.appendChild(btn); body.appendChild(add);
+
+    cat.appendChild(body); list.appendChild(cat);
+  });
+  update();
+}
+
+function update(){
+  let total=0, done=0;
+  DATA.forEach(c=>{
+    let ct=0, cd=0;
+    c.items.forEach((it,i)=>{ ct++; if(state.checked[pkey(c.id,i)]) cd++; });
+    Object.entries(state.customItems).forEach(([k,v])=>{ if(v.category===c.id){ ct++; if(state.checked[k]) cd++; } });
+    total+=ct; done+=cd;
+    const mini=document.getElementById("mini_"+c.id);
+    const sub=document.getElementById("sub_"+c.id);
+    if(mini) mini.style.width=(ct?Math.round(cd/ct*100):0)+"%";
+    if(sub) sub.textContent = cd+" / "+ct+" 樣" + (cd===ct&&ct>0?" ✅ 完成！":"");
+  });
+  const pctN = total? Math.round(done/total*100):0;
+  document.getElementById("fill").style.width=pctN+"%";
+  document.getElementById("duck").style.left=pctN+"%";
+  document.getElementById("count").textContent=done+" / "+total+" 樣";
+  const pctEl=document.getElementById("pct");
+  if(done===0) pctEl.textContent="出發！點一下就能把東西放進行李箱 👇";
+  else if(pctN<50) pctEl.textContent="打包 "+pctN+"%　繼續加油 💪";
+  else if(pctN<100) pctEl.textContent="打包 "+pctN+"%　快好了！🌊";
+  else pctEl.textContent="打包 100%　太棒了，出發囉！🎉";
+}
+
+/* ---------------- 慶祝 ---------------- */
+let celebrated=false;
+function checkCelebrate(){
+  const items=allItems();
+  const done=items.filter(k=>state.checked[k]).length;
+  if(items.length>0 && done===items.length){ if(!celebrated){ celebrated=true; party(); } }
+  else { celebrated=false; }
+}
+function party(){
+  const box=document.getElementById("celebrate"); box.classList.add("show");
+  const emojis=["🎉","🏖️","⭐","🌊","🐚","🦆","☀️","🎊"];
+  for(let i=0;i<70;i++){
+    const c=document.createElement("div"); c.className="confetti"; c.textContent=emojis[i%emojis.length];
+    c.style.left=Math.random()*100+"vw";
+    c.style.animationDuration=(2+Math.random()*2)+"s";
+    c.style.animationDelay=(Math.random()*.6)+"s";
+    c.style.fontSize=(14+Math.random()*16)+"px";
+    document.body.appendChild(c); setTimeout(()=>c.remove(),4200);
+  }
+  setTimeout(()=>box.classList.remove("show"),3200);
+}
+
+/* ---------------- 按鈕 ---------------- */
+document.getElementById("soundBtn").addEventListener("click",e=>{
+  state.sound=!state.sound;
+  e.target.textContent=state.sound?"🔊 音效：開":"🔈 音效：關";
+  save(); if(state.sound) pop(true);
+});
+document.getElementById("resetBtn").addEventListener("click",()=>{
+  if(confirm("要把所有勾勾清空、重新開始嗎？（大家的畫面都會一起清空）")){
+    state.checked={}; state.assign={}; celebrated=false;
+    save(); syncPush({action:"clearChecks"}); render();
+  }
+});
+
+/* ---------------- 定時同步（每 5 秒） ---------------- */
+function isTyping(){
+  const el=document.activeElement;
+  return el && (el.tagName==="INPUT" || el.tagName==="TEXTAREA");
+}
+setInterval(async ()=>{
+  if(!SYNC_URL || isTyping()) return;
+  const r=await syncPull();
+  if(r){ applyRemote(r); save(); render(); checkCelebrate(); }
+}, 5000);
+
+/* ---------------- 啟動 ---------------- */
+(async function(){
+  loadLocal();
+  document.getElementById("soundBtn").textContent=state.sound?"🔊 音效：開":"🔈 音效：關";
+  render(); updateSyncBadge();
+  if(SYNC_URL){
+    const r=await syncPull();
+    if(r){ applyRemote(r); save(); render(); }
+  }
+  checkCelebrate();
+})();
+</script>
 </body>
 </html>
